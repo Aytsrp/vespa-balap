@@ -29,11 +29,11 @@ const Review = () => {
         {data.map((data) => (
           <div key={data.name} className="card w-full card-side bg-base-100 shadow-xl">
             <figure>
-              <Image src={data.picture} width={180} height={180}/>
+              <Image src={data.picture} alt={data.name} width={180} height={180}/>
             </figure>
             <div className="card-body">
               <h2 className="card-title">{data.name}</h2>
-                <p className="max-w-3xl overflow-hidden">"{data.comment}"</p>
+                <p className="max-w-3xl overflow-hidden">&bdquo;{data.comment}&bdquo;</p>
               <div className="card-actions justify-end">
                 <div className="rating">
                   <input

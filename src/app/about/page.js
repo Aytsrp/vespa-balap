@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row">
-          <Image src={Picture} className="max-w-sm rounded-lg shadow-2xl" />
+          <Image src={Picture} alt="founder" className="max-w-sm rounded-lg shadow-2xl" />
           <div className="text-neutral">
             <h1 className="text-5xl font-bold">Tentang Kami!</h1>
             <div className="py-6">
