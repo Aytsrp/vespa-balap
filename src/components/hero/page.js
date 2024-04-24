@@ -15,7 +15,7 @@ const Hero = () => {
             <Image src={Logo} alt="Logo Vespa Balap Indonesia"/>
           </div>
           <p className="mb-5 font-bold italic">
-            &bdquo; Merayakan Solidaritas, Kreativitas, dan Persaudaraan di Jalanan Indonesia. &bdquo;
+            &ldquo; Merayakan Solidaritas, Kreativitas, dan Persaudaraan di Jalanan Indonesia. &rdquo;
           </p>
           <p className="font-bold">est 1991</p>
         </div>

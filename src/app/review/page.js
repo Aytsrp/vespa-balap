@@ -33,7 +33,7 @@ const Review = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">{data.name}</h2>
-                <p className="max-w-3xl overflow-hidden">&bdquo;{data.comment}&bdquo;</p>
+                <p className="max-w-3xl overflow-hidden">&ldquo;{data.comment}&rdquo;</p>
               <div className="card-actions justify-end">
                 <div className="rating">
                   <input
